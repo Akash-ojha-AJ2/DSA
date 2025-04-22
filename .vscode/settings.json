@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "*.ejs": "html",
+        ".env*": "dotenv",
+        "iostream": "cpp",
+        "valarray": "cpp",
+        "vector": "cpp",
+        "string": "cpp",
+        "type_traits": "cpp",
+        "*.tcc": "cpp",
+        "list": "cpp",
+        "ostream": "cpp"
+    }
+}
