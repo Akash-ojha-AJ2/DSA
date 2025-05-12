@@ -50,13 +50,13 @@
 // Comparison between Adjacency Matrix and Adjacency List
 // When the graph contains a large number of edges then it is good to store it as a matrix because only some entries in the matrix will be empty. An algorithm such as Prim’s and Dijkstra adjacency matrix is used to have less complexity.
 
-//   __________________________________________________________________________________
+//   _________________________________________________________________________________
 //   |  Action	           |     Adjacency Matrix	     |       Adjacency List        |
-//   |_____________________|____________________________ |_____________________________|
-//   |  Adding Edge	       |          O(1)	             |            O(1)             |
-//   |  Removing an edge   |          O(1)	             |            O(N)             |
+//   |_____________________|___________________________|_____________________________|
+//   |  Adding Edge	       |          O(1)	           |            O(1)             |
+//   |  Removing an edge   |          O(1)	           |            O(N)             |
 //   |  Initializing       |          O(N*N)	         |            O(N)             |
-//   |_____________________|_____________________________|_____________________________|
+//   |_____________________|___________________________|_____________________________|
 
 
 //Difference between Tree and Graph:  Tree is a restricted type of Graph Data Structure, just with some more rules. Every tree will always be a graph but not all graphs will be trees. Linked List, Trees, and Heaps all are special cases of graphs. 
